@@ -1,0 +1,19 @@
+server:
+  port: 8101
+
+# 指定服务名称
+spring:
+  application:
+    name: common-client
+
+eureka:
+  client:
+    # 注册到Eureka的注册中心
+    register-with-eureka: true
+    # 获取注册实例列表
+    fetch-registry: false
+    service-url:
+      # 配置注册中心地址
+      defaultZone: http://localhost:8001/eureka/
+  instance:
+      lease-renewal-interval-in-seconds: 30 #定义服务多久去注册中心续约

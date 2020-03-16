@@ -1,0 +1,10 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8001/eureka/
+    fetch-registry: true 
+server:
+  port: 8763
+spring:
+  application:
+    name: service-ribbon
