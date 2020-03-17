@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: QI
+Build-Jdk: 13.0.2
+Implementation-Title: config-client
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.qi.springcloud
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/springcloud-learning/config-client
+Created-By: Maven Integration for Eclipse
+
