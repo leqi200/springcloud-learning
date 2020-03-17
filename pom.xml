@@ -22,6 +22,8 @@
         <module>config-server</module>
         <module>config-client</module>
         <module>config-eureka-server</module>
+        <module>service-hi</module>
+        <module>service-miya</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
