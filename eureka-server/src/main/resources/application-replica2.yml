@@ -5,7 +5,8 @@ server:
 # 指定服务名称
 spring:
   application:
-    name: eureka-server
+    name: eureka-server2
+  profiles: replica2
 
 # 指定主机地址
 eureka:
